@@ -1,3 +1,6 @@
+// Primary author: Campbell Finlay (24772473)
+// Course: Advanced Algorithms, Assignment 2
+
 // 2-approximation for minimum vertex cover via maximal matching.
 // Build:  g++ -O2 -std=c++17 vc_approx.cpp -o vc_approx
 // Run:    ./vc_approx example_graph.txt

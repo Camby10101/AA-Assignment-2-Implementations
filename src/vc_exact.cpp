@@ -1,3 +1,6 @@
+// Primary author: Matt
+// Course: Advanced Algorithms, Assignment 2
+
 // Exact minimum vertex cover: branch-and-bound.
 // Build:  g++ -O2 -std=c++17 vc_exact.cpp -o vc_exact
 // Run:    ./vc_exact example_graph.txt [timeout_seconds]

@@ -1,3 +1,6 @@
+// Primary author: Luke
+// Course: Advanced Algorithms, Assignment 2
+
 // Heuristic for minimum vertex cover: highest-degree greedy.
 // Build:  g++ -O2 -std=c++17 vc_greedy.cpp -o vc_greedy
 // Run:    ./vc_greedy example_graph.txt
