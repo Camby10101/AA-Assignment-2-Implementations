@@ -19,42 +19,45 @@ Advanced Algorithms, Assignment 2 (group of 3). Each implementation has one prim
 | `src/vc_approx.cpp` | Maximal matching (2-approximation) | Campbell Finlay (24772473) |
 | `src/vc_greedy.cpp` | Highest-degree greedy (heuristic) | Luke |
 
-The benchmarking framework, graph generators and plotting scripts in `scripts/` are shared group work.
+The benchmarking driver, graph generator and plotting program in `tools/` are shared group work. They are also C++, so the whole project needs only a C++ compiler.
 
 ## Repository layout
 
 ```
 .
 ├── README.md
-├── requirements.txt          Python dependency for plotting (matplotlib)
 ├── example_graph.txt         10-vertex example input
 ├── src/                      the three implementations (C++17)
 │   ├── vc_exact.cpp
 │   ├── vc_approx.cpp
 │   └── vc_greedy.cpp
-├── scripts/
-│   ├── generate_graphs.py    graph generators + experiment suites (seeded)
-│   ├── benchmark.py          unified benchmark driver -> results/results.csv
-│   ├── plot_results.py       figures + summary table from the CSV
-│   └── run_experiments.sh    runs all of the above in order
+├── tools/                    shared experiment infrastructure (C++17)
+│   ├── benchmark.cpp         unified driver: the ONE program to run for the experiments
+│   ├── generate_graphs.cpp   graph generators + experiment suites (seeded)
+│   └── plot_results.cpp      figures (SVG) + summary table from the results CSV
 ├── graphs/                   generated inputs and manifest.csv (not committed)
 └── results/                  results.csv, environment.txt, plots/ (not committed)
 ```
 
 ## Requirements
 
-- A C++17 compiler (g++ 7 or newer, clang, or MSVC) for the three programs; no external C++ libraries
-- Python 3.8+ for the scripts. Generating graphs and benchmarking use only the standard library; plotting needs matplotlib (`pip install -r requirements.txt`)
+A C++17 compiler with `<filesystem>` support (g++ 9 or newer, clang 9 or newer, or a recent MSVC). No external libraries and no Python.
 
 ## Build
 
-From the repository root:
+From the repository root (create `bin` first: `mkdir bin`):
 
 ```
-mkdir -p bin
 g++ -O2 -std=c++17 src/vc_exact.cpp  -o bin/vc_exact
 g++ -O2 -std=c++17 src/vc_approx.cpp -o bin/vc_approx
 g++ -O2 -std=c++17 src/vc_greedy.cpp -o bin/vc_greedy
+```
+
+To build the experiment tools as well, compile the driver and let it build everything else (see "Reproducing the experiments"):
+
+```
+g++ -O2 -std=c++17 tools/benchmark.cpp -o bin/benchmark
+bin/benchmark --build --graph example_graph.txt
 ```
 
 On Windows with g++ (MinGW), the outputs will be `bin/vc_exact.exe` etc. Run them as `bin\vc_exact.exe example_graph.txt`.
@@ -130,32 +133,51 @@ The approximation ratio on this graph is 10 / 5 = 2, the worst case the guarante
 
 ## Reproducing the experiments
 
-Everything below is run from the repository root. All graph generation is seeded, so the same commands always produce the same inputs.
+Everything is run from the repository root. Graph generation is seeded (`std::mt19937_64` raw output only), so the same command produces the same inputs on every machine.
 
-One command (Linux/macOS/WSL/Git Bash):
-
-```
-pip install -r requirements.txt
-bash scripts/run_experiments.sh full      # or: quick
-```
-
-Or step by step (works on Windows too):
+**The only program you run is `bin/benchmark`.** Build it once, then run it:
 
 ```
-# 1. Generate the graphs and graphs/manifest.csv
-python3 scripts/generate_graphs.py --suite full --out-dir graphs
-
-# 2. Compile the three programs (-O2 -std=c++17) and benchmark them on the same files
-python3 scripts/benchmark.py --build --manifest graphs/manifest.csv \
-        --out results/results.csv --repeats 5 --exact-timeout 10
-
-# 3. Make the figures and results/plots/summary.csv
-python3 scripts/plot_results.py --results results/results.csv --out-dir results/plots
+mkdir bin
+g++ -O2 -std=c++17 tools/benchmark.cpp -o bin/benchmark
+bin/benchmark --build --suite full
 ```
 
-`quick` is a small suite for checking that everything works (a few minutes). `full` is the suite for the report and is much longer, mainly because every graph on which the exact program hits its timeout costs the full timeout.
+On Windows PowerShell use `bin\benchmark.exe --build --suite full`.
 
-### Input families (scripts/generate_graphs.py)
+One run does four things: (1) `--build` compiles the three algorithms, the generator and the plotter into `bin/` with `-O2 -std=c++17`; (2) generates the graphs into `graphs/`; (3) runs all three algorithms on the same files and writes `results/results.csv` and `results/environment.txt`; (4) writes the figures and `summary.csv` to `results/plots/`.
+
+`--suite quick` is a small suite for checking that everything works (under a minute). `--suite full` is the suite for the report: it took about 10 minutes on a single-core test machine with the default settings, mainly because every graph on which the exact program hits its timeout costs the full timeout.
+
+### Adjusting a run
+
+| Option | Default | Effect |
+|---|---|---|
+| `--suite quick\|full` | quick | which set of graph sizes to use |
+| `--repeats N` | 5 | timed passes per graph (more = steadier medians) |
+| `--exact-timeout S` | 10 | seconds before `vc_exact` gives up; raise it to push the wall further out |
+| `--slow-threshold S` | 2 | runs longer than this are not repeated |
+| `--seeds N` | quick 1, full 3 | random instances per size for the random families |
+| `--max-n N` | none | skip graphs with more than N vertices (faster runs) |
+| `--families a,b,c` | all | only these labels (see the table below) |
+| `--order-count N` | quick 10, full 30 | number of edge orderings in the `edge_order` experiment |
+| `--no-generate` | off | reuse the existing `graphs/` instead of regenerating |
+| `--no-plot` | off | skip the plotting step |
+| `--graph FILE` | none | benchmark one graph file instead of a suite |
+| `--out-dir`, `--graph-dir`, `--bin-dir`, `--cxx` | `results`, `graphs`, `bin`, `g++` | locations and compiler |
+
+Examples:
+
+```
+bin/benchmark --suite full --exact-timeout 30 --repeats 10      # steadier, further out
+bin/benchmark --suite full --families er_sparse,greedy_adversarial
+bin/benchmark --suite quick --max-n 100
+bin/benchmark --no-generate --suite full --repeats 9            # rerun timings on the same graphs
+```
+
+To change which graph sizes a suite contains (or the graph parameters), edit the size lists in `suiteSpecs()` in `tools/generate_graphs.cpp` and rebuild with `--build`.
+
+### Input families (tools/generate_graphs.cpp)
 
 | Label | Graph | What it probes |
 |---|---|---|
@@ -168,20 +190,20 @@ python3 scripts/plot_results.py --results results/results.csv --out-dir results/
 | `greedy_adversarial` | classic bipartite construction | greedy picks about k ln k vertices while OPT = k |
 | `edge_order` | one random graph, many edge orderings | sensitivity of the matching algorithm to edge order |
 
-A single graph can be made with, for example:
+A single graph can be made and benchmarked with, for example:
 
 ```
-python3 scripts/generate_graphs.py --family er --n 100 --avg-degree 3 --seed 1 --out graphs/test.txt
-python3 scripts/benchmark.py --graph graphs/test.txt
+bin/generate_graphs --family er --n 100 --avg-degree 3 --seed 1 --out graphs/test.txt
+bin/benchmark --graph graphs/test.txt
 ```
 
-### Measurement method (scripts/benchmark.py)
+### Measurement method (tools/benchmark.cpp)
 
 - All three programs run on the same graph file. Timing is the programs' own "Time (s)", which covers the algorithm only (not file reading) and has microsecond resolution, so times under about 1 microsecond print as 0.
 - Per graph: one untimed warm-up pass, then `--repeats` timed passes (default 5) with the three programs run back to back inside each pass. The median is the headline time; min, mean and stdev are also recorded.
 - If a run takes longer than `--slow-threshold` seconds (default 2), it is not repeated further. A timed-out exact run is recorded once.
 - Every cover is checked for validity by the programs, and the validity is stored in the CSV.
-- `results/environment.txt` records the machine, compiler and settings used.
+- `results/environment.txt` records the date, OS, compiler version and settings. CPU model and RAM are not detected automatically, so add them by hand for the report.
 
 ### Quality baseline
 
@@ -196,6 +218,8 @@ Each row stores `ratio` = cover size / baseline, with the baseline chosen in thi
 ### Outputs
 
 - `results/results.csv`: one row per (graph, algorithm)
-- `results/environment.txt`: hardware and compiler details
-- `results/plots/runtime_by_family.png`, `ratio_by_family.png`, `ratio_summary.png`, `edge_order_sensitivity.png`
+- `results/environment.txt`: machine and compiler details
+- `results/plots/runtime_by_family.svg`, `ratio_by_family.svg`, `ratio_summary.svg`, `edge_order_sensitivity.svg`
 - `results/plots/summary.csv`: mean and max ratio and mean time per (family, algorithm)
+
+The figures are SVG: open them in a web browser, or insert them directly into Word, PowerPoint or Google Docs.
