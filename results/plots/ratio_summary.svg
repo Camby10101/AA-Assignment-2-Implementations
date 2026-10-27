@@ -1,0 +1,55 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='420' viewBox='0 0 980 420'>
+<rect width='100%' height='100%' fill='white'/>
+<line x1='70.00' y1='300.00' x2='950.00' y2='300.00' stroke='#e3e3e3' stroke-width='1'/>
+<text x='64.00' y='304.00' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>0</text>
+<line x1='70.00' y1='212.66' x2='950.00' y2='212.66' stroke='#e3e3e3' stroke-width='1'/>
+<text x='64.00' y='216.66' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='70.00' y1='125.32' x2='950.00' y2='125.32' stroke='#e3e3e3' stroke-width='1'/>
+<text x='64.00' y='129.32' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='70.00' y1='212.66' x2='950.00' y2='212.66' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='70.00' y1='125.32' x2='950.00' y2='125.32' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<rect x='92.63' y='157.99' width='38.23' height='142.01' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='111.74' y='153.99' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.63</text>
+<rect x='132.86' y='209.51' width='38.23' height='90.49' fill='#2ca02c' stroke='none' fill-opacity='1'/>
+<text x='151.97' y='205.51' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.04</text>
+<text x='132.86' y='314.00' font-size='10' text-anchor='end' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-30 132.86 314.00)'>er_sparse</text>
+<rect x='218.34' y='203.17' width='38.23' height='96.83' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='237.46' y='199.17' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.11</text>
+<rect x='258.57' y='211.41' width='38.23' height='88.59' fill='#2ca02c' stroke='none' fill-opacity='1'/>
+<text x='277.69' y='207.41' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.01</text>
+<text x='258.57' y='314.00' font-size='10' text-anchor='end' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-30 258.57 314.00)'>er_dense</text>
+<rect x='344.06' y='150.90' width='38.23' height='149.10' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='363.17' y='146.90' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.71</text>
+<rect x='384.29' y='205.53' width='38.23' height='94.47' fill='#2ca02c' stroke='none' fill-opacity='1'/>
+<text x='403.40' y='201.53' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.08</text>
+<text x='384.29' y='314.00' font-size='10' text-anchor='end' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-30 384.29 314.00)'>bipartite</text>
+<rect x='469.77' y='172.82' width='38.23' height='127.18' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='488.89' y='168.82' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.46</text>
+<rect x='510.00' y='210.00' width='38.23' height='90.00' fill='#2ca02c' stroke='none' fill-opacity='1'/>
+<text x='529.11' y='206.00' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.03</text>
+<text x='510.00' y='314.00' font-size='10' text-anchor='end' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-30 510.00 314.00)'>scale_free</text>
+<rect x='595.49' y='192.24' width='38.23' height='107.76' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='614.60' y='188.24' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.23</text>
+<rect x='635.71' y='212.66' width='38.23' height='87.34' fill='#2ca02c' stroke='none' fill-opacity='1'/>
+<text x='654.83' y='208.66' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.00</text>
+<text x='635.71' y='314.00' font-size='10' text-anchor='end' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-30 635.71 314.00)'>planted</text>
+<rect x='721.20' y='125.32' width='38.23' height='174.68' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='740.31' y='121.32' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>2.00</text>
+<rect x='761.43' y='212.66' width='38.23' height='87.34' fill='#2ca02c' stroke='none' fill-opacity='1'/>
+<text x='780.54' y='208.66' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>1.00</text>
+<text x='761.43' y='314.00' font-size='10' text-anchor='end' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-30 761.43 314.00)'>complete_bipartite</text>
+<rect x='846.91' y='125.32' width='38.23' height='174.68' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='866.03' y='121.32' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>2.00</text>
+<rect x='887.14' y='72.73' width='38.23' height='227.27' fill='#2ca02c' stroke='none' fill-opacity='1'/>
+<text x='906.26' y='68.73' font-size='9' text-anchor='middle' fill='#333' font-family='Arial, Helvetica, sans-serif'>2.60</text>
+<text x='887.14' y='314.00' font-size='10' text-anchor='end' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-30 887.14 314.00)'>greedy_adversarial</text>
+<rect x='70.00' y='50.00' width='880.00' height='250.00' fill='none' stroke='#888' fill-opacity='1'/>
+<text x='490.00' y='28.00' font-size='14' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>Mean solution ratio (cover size / baseline) by graph family</text>
+<text x='20.00' y='175.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 20.00 175.00)'>cover size / baseline</text>
+<line x1='295.00' y1='398.00' x2='317.00' y2='398.00' stroke='#d62728' stroke-width='2'/>
+<rect x='302.60' y='394.60' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='323.00' y='402.00' font-size='11' text-anchor='start' fill='#222' font-family='Arial, Helvetica, sans-serif'>2-approx (maximal matching)</text>
+<line x1='502.40' y1='398.00' x2='524.40' y2='398.00' stroke='#2ca02c' stroke-width='2'/>
+<polygon points='513.40,393.80 509.50,401.40 517.30,401.40 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='530.40' y='402.00' font-size='11' text-anchor='start' fill='#222' font-family='Arial, Helvetica, sans-serif'>Greedy (highest degree)</text>
+</svg>

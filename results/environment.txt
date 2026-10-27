@@ -1,0 +1,11 @@
+date: 2026-10-28T10:19:24
+os: Windows
+logical cpus: 16
+compiler used to build benchmark: 15.2.0
+algorithm build flags: -O2 -std=c++17 (via --build; otherwise as built by hand)
+suite: full
+repeats: 5
+exact timeout (s): 10
+slow threshold (s): 2
+CPU model: AMD Ryzen 7 7700 8-Core
+RAM: 32

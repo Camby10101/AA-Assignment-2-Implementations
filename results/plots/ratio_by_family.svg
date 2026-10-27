@@ -1,0 +1,319 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1320' height='1050' viewBox='0 0 1320 1050'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='660.00' y='28.00' font-size='14' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>Solution quality (dashed lines at 1 and 2). Baselines used: best_known: 24, exact: 171, known_opt: 8</text>
+<line x1='66.00' y1='293.72' x2='422.00' y2='293.72' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='297.72' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='66.00' y1='192.00' x2='422.00' y2='192.00' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='196.00' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1.5</text>
+<line x1='66.00' y1='90.28' x2='422.00' y2='90.28' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='94.28' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='131.39' y1='74.00' x2='131.39' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='131.39' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>200</text>
+<line x1='204.04' y1='74.00' x2='204.04' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='204.04' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>400</text>
+<line x1='276.69' y1='74.00' x2='276.69' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='276.69' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>600</text>
+<line x1='349.35' y1='74.00' x2='349.35' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='349.35' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>800</text>
+<line x1='422.00' y1='74.00' x2='422.00' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='422.00' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>1000</text>
+<rect x='66.00' y='74.00' width='356.00' height='236.00' fill='none' stroke='#888' fill-opacity='1'/>
+<line x1='66.00' y1='293.72' x2='422.00' y2='293.72' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='66.00' y1='90.28' x2='422.00' y2='90.28' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<polygon points='66.00,180.70 73.27,158.09 80.53,133.87 87.80,143.81 95.06,143.35 113.22,149.95 131.39,150.24 149.55,168.12 167.71,161.41 240.37,169.99 422.00,162.61 422.00,176.54 240.37,176.38 167.71,181.62 149.55,176.78 131.39,162.33 113.22,158.09 95.06,173.32 87.80,154.52 80.53,171.66 73.27,197.35 66.00,201.25 ' fill='#d62728' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#d62728' stroke-width='1.7' points='66.00,194.40 73.27,175.70 80.53,157.05 87.80,147.38 95.06,156.29 113.22,154.71 131.39,157.37 149.55,173.08 167.71,171.56 240.37,173.22 422.00,169.17 '/>
+<rect x='62.60' y='191.00' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='69.87' y='172.30' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='77.13' y='153.65' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='84.40' y='143.98' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='91.66' y='152.89' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='109.82' y='151.31' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='127.99' y='153.97' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='146.15' y='169.68' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='164.31' y='168.16' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='236.97' y='169.82' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='418.60' y='165.77' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<polygon points='66.00,271.12 73.27,283.02 80.53,279.19 87.80,288.37 95.06,280.46 113.22,273.94 131.39,276.77 149.55,281.95 167.71,283.77 240.37,288.66 422.00,291.26 422.00,293.32 240.37,292.06 167.71,288.19 149.55,292.12 131.39,285.07 113.22,284.75 95.06,285.42 87.80,293.72 80.53,286.94 73.27,293.72 66.00,293.72 ' fill='#2ca02c' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#2ca02c' stroke-width='1.7' points='66.00,286.19 73.27,290.15 80.53,284.11 87.80,291.94 95.06,282.11 113.22,280.52 131.39,280.90 149.55,285.73 167.71,286.22 240.37,289.85 422.00,292.36 '/>
+<polygon points='66.00,281.99 62.10,289.59 69.90,289.59 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='73.27,285.95 69.37,293.55 77.17,293.55 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='80.53,279.91 76.63,287.51 84.43,287.51 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='87.80,287.74 83.90,295.34 91.70,295.34 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='95.06,277.91 91.16,285.51 98.96,285.51 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='113.22,276.32 109.32,283.92 117.12,283.92 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='131.39,276.70 127.49,284.30 135.29,284.30 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='149.55,281.53 145.65,289.13 153.45,289.13 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='167.71,282.02 163.81,289.62 171.61,289.62 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='240.37,285.65 236.47,293.25 244.27,293.25 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='422.00,288.16 418.10,295.76 425.90,295.76 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='220.00' y='60.00' font-size='13' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>er_sparse</text>
+<text x='244.00' y='352.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif'>n (vertices)</text>
+<text x='14.00' y='192.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 14.00 192.00)'>cover size / baseline</text>
+<line x1='506.00' y1='293.72' x2='862.00' y2='293.72' stroke='#e3e3e3' stroke-width='1'/>
+<text x='500.00' y='297.72' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='506.00' y1='192.00' x2='862.00' y2='192.00' stroke='#e3e3e3' stroke-width='1'/>
+<text x='500.00' y='196.00' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1.5</text>
+<line x1='506.00' y1='90.28' x2='862.00' y2='90.28' stroke='#e3e3e3' stroke-width='1'/>
+<text x='500.00' y='94.28' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='552.43' y1='74.00' x2='552.43' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='552.43' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>50</text>
+<line x1='629.83' y1='74.00' x2='629.83' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='629.83' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>100</text>
+<line x1='707.22' y1='74.00' x2='707.22' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='707.22' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>150</text>
+<line x1='784.61' y1='74.00' x2='784.61' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='784.61' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>200</text>
+<line x1='862.00' y1='74.00' x2='862.00' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='862.00' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>250</text>
+<rect x='506.00' y='74.00' width='356.00' height='236.00' fill='none' stroke='#888' fill-opacity='1'/>
+<line x1='506.00' y1='293.72' x2='862.00' y2='293.72' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='506.00' y1='90.28' x2='862.00' y2='90.28' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<polygon points='506.00,206.53 536.96,262.90 567.91,262.42 598.87,273.67 629.83,273.60 668.52,279.69 707.22,279.19 745.91,281.32 784.61,281.88 862.00,286.06 862.00,286.06 784.61,284.04 745.91,283.80 707.22,279.19 668.52,279.69 629.83,278.07 598.87,276.77 567.91,262.42 536.96,269.79 506.00,253.03 ' fill='#d62728' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#d62728' stroke-width='1.7' points='506.00,228.49 536.96,265.20 567.91,262.42 598.87,274.70 629.83,275.09 668.52,279.69 707.22,279.19 745.91,282.58 784.61,282.60 862.00,286.06 '/>
+<rect x='502.60' y='225.09' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='533.56' y='261.80' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='564.51' y='259.02' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='595.47' y='271.30' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='626.43' y='271.69' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='665.12' y='276.29' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='703.82' y='275.79' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='742.51' y='279.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='781.21' y='279.20' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='858.60' y='282.66' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<polygon points='506.00,293.72 536.96,287.56 567.91,285.90 598.87,287.99 629.83,287.02 668.52,290.22 707.22,289.36 745.91,288.76 784.61,291.57 862.00,291.17 862.00,292.02 784.61,292.65 745.91,292.48 707.22,290.82 668.52,290.22 629.83,291.49 598.87,290.90 567.91,289.81 536.96,293.72 506.00,293.72 ' fill='#2ca02c' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#2ca02c' stroke-width='1.7' points='506.00,293.72 536.96,291.67 567.91,288.51 598.87,289.92 629.83,290.00 668.52,290.22 707.22,289.85 745.91,290.83 784.61,291.93 862.00,291.45 '/>
+<polygon points='506.00,289.52 502.10,297.12 509.90,297.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='536.96,287.47 533.06,295.07 540.86,295.07 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='567.91,284.31 564.01,291.91 571.81,291.91 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='598.87,285.72 594.97,293.32 602.77,293.32 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='629.83,285.80 625.93,293.40 633.73,293.40 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='668.52,286.02 664.62,293.62 672.42,293.62 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='707.22,285.65 703.32,293.25 711.12,293.25 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='745.91,286.63 742.01,294.23 749.81,294.23 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='784.61,287.73 780.71,295.33 788.51,295.33 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='862.00,287.25 858.10,294.85 865.90,294.85 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='660.00' y='60.00' font-size='13' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>er_dense</text>
+<text x='684.00' y='352.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif'>n (vertices)</text>
+<text x='454.00' y='192.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 454.00 192.00)'>cover size / baseline</text>
+<line x1='946.00' y1='293.72' x2='1302.00' y2='293.72' stroke='#e3e3e3' stroke-width='1'/>
+<text x='940.00' y='297.72' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='946.00' y1='192.00' x2='1302.00' y2='192.00' stroke='#e3e3e3' stroke-width='1'/>
+<text x='940.00' y='196.00' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1.5</text>
+<line x1='946.00' y1='90.28' x2='1302.00' y2='90.28' stroke='#e3e3e3' stroke-width='1'/>
+<text x='940.00' y='94.28' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='1011.39' y1='74.00' x2='1011.39' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='1011.39' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>200</text>
+<line x1='1084.04' y1='74.00' x2='1084.04' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='1084.04' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>400</text>
+<line x1='1156.69' y1='74.00' x2='1156.69' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='1156.69' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>600</text>
+<line x1='1229.35' y1='74.00' x2='1229.35' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='1229.35' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>800</text>
+<line x1='1302.00' y1='74.00' x2='1302.00' y2='310.00' stroke='#efefef' stroke-width='1'/>
+<text x='1302.00' y='325.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>1000</text>
+<rect x='946.00' y='74.00' width='356.00' height='236.00' fill='none' stroke='#888' fill-opacity='1'/>
+<line x1='946.00' y1='293.72' x2='1302.00' y2='293.72' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='946.00' y1='90.28' x2='1302.00' y2='90.28' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<polygon points='946.00,130.97 953.27,130.97 960.53,133.87 967.80,141.14 975.06,139.10 993.22,140.44 1011.39,148.40 1047.71,134.56 1120.37,138.24 1302.00,145.53 1302.00,161.59 1120.37,165.63 1047.71,150.35 1011.39,169.98 993.22,153.32 975.06,158.09 967.80,165.23 960.53,160.43 953.27,171.66 946.00,171.66 ' fill='#d62728' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#d62728' stroke-width='1.7' points='946.00,144.53 953.27,145.24 960.53,147.57 967.80,153.08 975.06,148.53 993.22,148.17 1011.39,162.19 1047.71,143.64 1120.37,153.53 1302.00,152.12 '/>
+<rect x='942.60' y='141.13' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='949.87' y='141.84' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='957.13' y='144.17' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='964.40' y='149.68' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='971.66' y='145.13' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='989.82' y='144.77' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='1007.99' y='158.79' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='1044.31' y='140.24' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='1116.97' y='150.13' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='1298.60' y='148.72' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<polygon points='946.00,293.72 953.27,253.03 960.53,250.13 967.80,273.38 975.06,285.25 993.22,263.07 1011.39,265.59 1047.71,270.03 1120.37,273.63 1302.00,271.30 1302.00,279.04 1120.37,280.49 1047.71,282.65 1011.39,279.19 993.22,273.67 975.06,285.59 967.80,293.72 960.53,286.71 953.27,283.55 946.00,293.72 ' fill='#2ca02c' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#2ca02c' stroke-width='1.7' points='946.00,293.72 953.27,269.63 960.53,269.59 967.80,283.46 975.06,285.42 993.22,267.65 1011.39,273.21 1047.71,276.22 1120.37,276.25 1302.00,276.05 '/>
+<polygon points='946.00,289.52 942.10,297.12 949.90,297.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='953.27,265.43 949.37,273.03 957.17,273.03 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='960.53,265.39 956.63,272.99 964.43,272.99 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='967.80,279.26 963.90,286.86 971.70,286.86 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='975.06,281.22 971.16,288.82 978.96,288.82 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='993.22,263.45 989.32,271.05 997.12,271.05 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='1011.39,269.01 1007.49,276.61 1015.29,276.61 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='1047.71,272.02 1043.81,279.62 1051.61,279.62 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='1120.37,272.05 1116.47,279.65 1124.27,279.65 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='1302.00,271.85 1298.10,279.45 1305.90,279.45 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='1100.00' y='60.00' font-size='13' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>bipartite</text>
+<text x='1124.00' y='352.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif'>n (vertices)</text>
+<text x='894.00' y='192.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 894.00 192.00)'>cover size / baseline</text>
+<line x1='66.00' y1='613.72' x2='422.00' y2='613.72' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='617.72' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='66.00' y1='512.00' x2='422.00' y2='512.00' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='516.00' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1.5</text>
+<line x1='66.00' y1='410.28' x2='422.00' y2='410.28' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='414.28' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='131.39' y1='394.00' x2='131.39' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='131.39' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>200</text>
+<line x1='204.04' y1='394.00' x2='204.04' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='204.04' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>400</text>
+<line x1='276.69' y1='394.00' x2='276.69' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='276.69' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>600</text>
+<line x1='349.35' y1='394.00' x2='349.35' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='349.35' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>800</text>
+<line x1='422.00' y1='394.00' x2='422.00' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='422.00' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>1000</text>
+<rect x='66.00' y='394.00' width='356.00' height='236.00' fill='none' stroke='#888' fill-opacity='1'/>
+<line x1='66.00' y1='613.72' x2='422.00' y2='613.72' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='66.00' y1='410.28' x2='422.00' y2='410.28' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<polygon points='66.00,521.25 73.27,500.70 80.53,502.16 87.80,514.61 95.06,513.99 113.22,514.75 131.39,507.16 149.55,514.37 167.71,509.98 240.37,515.71 422.00,519.28 422.00,521.62 240.37,522.69 167.71,528.06 149.55,528.41 131.39,525.36 113.22,524.89 95.06,548.47 87.80,532.34 80.53,521.25 73.27,545.91 66.00,532.34 ' fill='#d62728' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#d62728' stroke-width='1.7' points='66.00,524.95 73.27,524.38 80.53,514.06 87.80,522.13 95.06,530.04 113.22,519.48 131.39,513.81 149.55,520.82 167.71,519.93 240.37,519.78 422.00,520.79 '/>
+<rect x='62.60' y='521.55' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='69.87' y='520.98' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='77.13' y='510.66' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='84.40' y='518.73' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='91.66' y='526.64' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='109.82' y='516.08' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='127.99' y='510.41' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='146.15' y='517.42' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='164.31' y='516.53' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='236.97' y='516.38' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='418.60' y='517.39' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<polygon points='66.00,593.38 73.27,602.42 80.53,600.16 87.80,603.29 95.06,605.90 113.22,605.13 131.39,605.50 149.55,605.84 167.71,605.64 240.37,609.61 422.00,611.68 422.00,612.06 240.37,611.28 167.71,609.71 149.55,608.60 131.39,607.56 113.22,605.59 95.06,613.72 87.80,613.72 80.53,607.56 73.27,613.72 66.00,613.72 ' fill='#2ca02c' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#2ca02c' stroke-width='1.7' points='66.00,606.94 73.27,606.73 80.53,602.77 87.80,608.59 95.06,608.56 113.22,605.40 131.39,606.35 149.55,607.20 167.71,608.30 240.37,610.22 422.00,611.82 '/>
+<polygon points='66.00,602.74 62.10,610.34 69.90,610.34 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='73.27,602.53 69.37,610.13 77.17,610.13 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='80.53,598.57 76.63,606.17 84.43,606.17 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='87.80,604.39 83.90,611.99 91.70,611.99 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='95.06,604.36 91.16,611.96 98.96,611.96 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='113.22,601.20 109.32,608.80 117.12,608.80 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='131.39,602.15 127.49,609.75 135.29,609.75 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='149.55,603.00 145.65,610.60 153.45,610.60 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='167.71,604.10 163.81,611.70 171.61,611.70 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='240.37,606.02 236.47,613.62 244.27,613.62 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='422.00,607.62 418.10,615.22 425.90,615.22 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='220.00' y='380.00' font-size='13' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>scale_free</text>
+<text x='244.00' y='672.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif'>n (vertices)</text>
+<text x='14.00' y='512.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 14.00 512.00)'>cover size / baseline</text>
+<line x1='506.00' y1='613.72' x2='862.00' y2='613.72' stroke='#e3e3e3' stroke-width='1'/>
+<text x='500.00' y='617.72' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='506.00' y1='512.00' x2='862.00' y2='512.00' stroke='#e3e3e3' stroke-width='1'/>
+<text x='500.00' y='516.00' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1.5</text>
+<line x1='506.00' y1='410.28' x2='862.00' y2='410.28' stroke='#e3e3e3' stroke-width='1'/>
+<text x='500.00' y='414.28' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='571.39' y1='394.00' x2='571.39' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='571.39' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>200</text>
+<line x1='644.04' y1='394.00' x2='644.04' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='644.04' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>400</text>
+<line x1='716.69' y1='394.00' x2='716.69' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='716.69' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>600</text>
+<line x1='789.35' y1='394.00' x2='789.35' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='789.35' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>800</text>
+<line x1='862.00' y1='394.00' x2='862.00' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='862.00' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>1000</text>
+<rect x='506.00' y='394.00' width='356.00' height='236.00' fill='none' stroke='#888' fill-opacity='1'/>
+<line x1='506.00' y1='613.72' x2='862.00' y2='613.72' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='506.00' y1='410.28' x2='862.00' y2='410.28' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<polygon points='506.00,545.91 513.27,545.91 520.53,545.91 527.80,562.86 535.06,559.47 553.22,554.95 571.39,566.25 607.71,563.99 680.37,556.76 862.00,566.77 862.00,573.03 680.37,571.40 607.71,568.51 571.39,573.03 553.22,591.12 535.06,586.60 527.80,579.82 520.53,568.51 513.27,579.82 506.00,613.72 ' fill='#d62728' fill-opacity='0.15' stroke='none' stroke-width='1'/>
+<polyline fill='none' stroke='#d62728' stroke-width='1.7' points='506.00,568.51 513.27,557.21 520.53,553.44 527.80,568.51 535.06,573.03 553.22,570.02 571.39,568.51 607.71,567.01 680.37,565.61 862.00,569.59 '/>
+<rect x='502.60' y='565.11' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='509.87' y='553.81' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='517.13' y='550.04' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='524.40' y='565.11' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='531.66' y='569.63' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='549.82' y='566.62' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='567.99' y='565.11' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='604.31' y='563.61' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='676.97' y='562.21' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='858.60' y='566.19' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<polyline fill='none' stroke='#2ca02c' stroke-width='1.7' points='506.00,613.72 513.27,613.72 520.53,613.72 527.80,613.72 535.06,613.72 553.22,613.72 571.39,613.72 607.71,613.72 680.37,613.72 862.00,613.72 '/>
+<polygon points='506.00,609.52 502.10,617.12 509.90,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='513.27,609.52 509.37,617.12 517.17,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='520.53,609.52 516.63,617.12 524.43,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='527.80,609.52 523.90,617.12 531.70,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='535.06,609.52 531.16,617.12 538.96,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='553.22,609.52 549.32,617.12 557.12,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='571.39,609.52 567.49,617.12 575.29,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='607.71,609.52 603.81,617.12 611.61,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='680.37,609.52 676.47,617.12 684.27,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='862.00,609.52 858.10,617.12 865.90,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='660.00' y='380.00' font-size='13' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>planted</text>
+<text x='684.00' y='672.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif'>n (vertices)</text>
+<text x='454.00' y='512.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 454.00 512.00)'>cover size / baseline</text>
+<line x1='946.00' y1='613.72' x2='1302.00' y2='613.72' stroke='#e3e3e3' stroke-width='1'/>
+<text x='940.00' y='617.72' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='946.00' y1='512.00' x2='1302.00' y2='512.00' stroke='#e3e3e3' stroke-width='1'/>
+<text x='940.00' y='516.00' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1.5</text>
+<line x1='946.00' y1='410.28' x2='1302.00' y2='410.28' stroke='#e3e3e3' stroke-width='1'/>
+<text x='940.00' y='414.28' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='1053.37' y1='394.00' x2='1053.37' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='1053.37' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>200</text>
+<line x1='1166.38' y1='394.00' x2='1166.38' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='1166.38' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>400</text>
+<line x1='1279.40' y1='394.00' x2='1279.40' y2='630.00' stroke='#efefef' stroke-width='1'/>
+<text x='1279.40' y='645.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>600</text>
+<rect x='946.00' y='394.00' width='356.00' height='236.00' fill='none' stroke='#888' fill-opacity='1'/>
+<line x1='946.00' y1='613.72' x2='1302.00' y2='613.72' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='946.00' y1='410.28' x2='1302.00' y2='410.28' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<polyline fill='none' stroke='#d62728' stroke-width='1.7' points='946.00,410.28 951.65,410.28 962.95,410.28 985.56,410.28 1030.76,410.28 1121.17,410.28 1302.00,410.28 '/>
+<rect x='942.60' y='406.88' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='948.25' y='406.88' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='959.55' y='406.88' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='982.16' y='406.88' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='1027.36' y='406.88' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='1117.77' y='406.88' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='1298.60' y='406.88' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<polyline fill='none' stroke='#2ca02c' stroke-width='1.7' points='946.00,613.72 951.65,613.72 962.95,613.72 985.56,613.72 1030.76,613.72 1121.17,613.72 1302.00,613.72 '/>
+<polygon points='946.00,609.52 942.10,617.12 949.90,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='951.65,609.52 947.75,617.12 955.55,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='962.95,609.52 959.05,617.12 966.85,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='985.56,609.52 981.66,617.12 989.46,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='1030.76,609.52 1026.86,617.12 1034.66,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='1121.17,609.52 1117.27,617.12 1125.07,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='1302.00,609.52 1298.10,617.12 1305.90,617.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='1100.00' y='380.00' font-size='13' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>complete_bipartite</text>
+<text x='1124.00' y='672.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif'>n (vertices)</text>
+<text x='894.00' y='512.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 894.00 512.00)'>cover size / baseline</text>
+<line x1='66.00' y1='933.72' x2='422.00' y2='933.72' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='937.72' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>1</text>
+<line x1='66.00' y1='861.58' x2='422.00' y2='861.58' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='865.58' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>2</text>
+<line x1='66.00' y1='789.43' x2='422.00' y2='789.43' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='793.43' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>3</text>
+<line x1='66.00' y1='717.29' x2='422.00' y2='717.29' stroke='#e3e3e3' stroke-width='1'/>
+<text x='60.00' y='721.29' font-size='10' text-anchor='end' fill='#444' font-family='Arial, Helvetica, sans-serif'>4</text>
+<line x1='133.88' y1='714.00' x2='133.88' y2='950.00' stroke='#efefef' stroke-width='1'/>
+<text x='133.88' y='965.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>100</text>
+<line x1='209.31' y1='714.00' x2='209.31' y2='950.00' stroke='#efefef' stroke-width='1'/>
+<text x='209.31' y='965.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>200</text>
+<line x1='284.73' y1='714.00' x2='284.73' y2='950.00' stroke='#efefef' stroke-width='1'/>
+<text x='284.73' y='965.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>300</text>
+<line x1='360.15' y1='714.00' x2='360.15' y2='950.00' stroke='#efefef' stroke-width='1'/>
+<text x='360.15' y='965.00' font-size='10' text-anchor='middle' fill='#444' font-family='Arial, Helvetica, sans-serif'>400</text>
+<rect x='66.00' y='714.00' width='356.00' height='236.00' fill='none' stroke='#888' fill-opacity='1'/>
+<line x1='66.00' y1='933.72' x2='422.00' y2='933.72' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<line x1='66.00' y1='861.58' x2='422.00' y2='861.58' stroke='#777' stroke-width='1' stroke-dasharray='5,4'/>
+<polyline fill='none' stroke='#d62728' stroke-width='1.7' points='66.00,861.58 78.82,861.58 92.40,861.58 108.24,861.58 142.18,861.58 177.63,861.58 255.31,861.58 336.02,861.58 422.00,861.58 '/>
+<rect x='62.60' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='75.42' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='89.00' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='104.84' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='138.78' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='174.23' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='251.91' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='332.62' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<rect x='418.60' y='858.18' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<polyline fill='none' stroke='#2ca02c' stroke-width='1.7' points='66.00,933.72 78.82,883.22 92.40,861.58 108.24,839.94 142.18,811.08 177.63,793.04 255.31,764.18 336.02,746.15 422.00,730.28 '/>
+<polygon points='66.00,929.52 62.10,937.12 69.90,937.12 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='78.82,879.02 74.92,886.62 82.72,886.62 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='92.40,857.38 88.50,864.98 96.30,864.98 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='108.24,835.74 104.34,843.34 112.14,843.34 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='142.18,806.88 138.28,814.48 146.08,814.48 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='177.63,788.84 173.73,796.44 181.53,796.44 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='255.31,759.98 251.41,767.58 259.21,767.58 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='336.02,741.95 332.12,749.55 339.92,749.55 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<polygon points='422.00,726.08 418.10,733.68 425.90,733.68 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='220.00' y='700.00' font-size='13' text-anchor='middle' fill='#111' font-family='Arial, Helvetica, sans-serif' font-weight='bold'>greedy_adversarial</text>
+<text x='244.00' y='992.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif'>n (vertices)</text>
+<text x='14.00' y='832.00' font-size='11' text-anchor='middle' fill='#222' font-family='Arial, Helvetica, sans-serif' transform='rotate(-90 14.00 832.00)'>cover size / baseline</text>
+<line x1='465.00' y1='1022.00' x2='487.00' y2='1022.00' stroke='#d62728' stroke-width='2'/>
+<rect x='472.60' y='1018.60' width='6.80' height='6.80' fill='#d62728' stroke='none' fill-opacity='1'/>
+<text x='493.00' y='1026.00' font-size='11' text-anchor='start' fill='#222' font-family='Arial, Helvetica, sans-serif'>2-approx (maximal matching)</text>
+<line x1='672.40' y1='1022.00' x2='694.40' y2='1022.00' stroke='#2ca02c' stroke-width='2'/>
+<polygon points='683.40,1017.80 679.50,1025.40 687.30,1025.40 ' fill='#2ca02c' fill-opacity='1' stroke='none' stroke-width='1'/>
+<text x='700.40' y='1026.00' font-size='11' text-anchor='start' fill='#222' font-family='Arial, Helvetica, sans-serif'>Greedy (highest degree)</text>
+</svg>
