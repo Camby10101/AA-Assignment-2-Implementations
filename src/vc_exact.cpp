@@ -34,6 +34,40 @@ bool readGraph(istream &in) {
 
 double elapsed() { return chrono::duration<double>(Clock::now() - startTime).count(); }
 
+// Seed the upper bound with a valid highest-degree greedy cover.
+// Keep this separate from inCover: the exact search still starts empty.
+void initialiseUpperBound() {
+    bestCover.assign(n, 0);
+    best = 0;
+    vector<vector<int>> adj(n);
+    vector<int> deg(n, 0);
+    for (auto [u, v] : edges) {
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+        deg[u]++;
+        deg[v]++;
+    }
+
+    // Negative degrees put the highest degree first; ties use smallest ID.
+    set<pair<int, int>> candidates;
+    for (int v = 0; v < n; ++v)
+        if (deg[v] > 0) candidates.insert({-deg[v], v});
+
+    while (!candidates.empty()) {
+        int v = candidates.begin()->second;
+        candidates.erase(candidates.begin());
+        bestCover[v] = 1;
+        ++best;
+        for (int u : adj[v]) {
+            if (bestCover[u] || deg[u] == 0) continue;
+            candidates.erase({-deg[u], u});
+            --deg[u];
+            if (deg[u] > 0) candidates.insert({-deg[u], u});
+        }
+        deg[v] = 0;
+    }
+}
+
 // Lower bound: size of a greedy maximal matching on the uncovered edges.
 // Each matched edge needs its own cover vertex, so this is a valid bound.
 int matchingLowerBound() {
@@ -103,9 +137,8 @@ int main(int argc, char **argv) {
     if (argc > 2) timeLimit = atof(argv[2]);
 
     inCover.assign(n, 0);
-    best = n + 1;                       // trivially worse than taking every vertex
-    bestCover.assign(n, 1);
     startTime = Clock::now();
+    initialiseUpperBound();
     solve(0);
     double t = elapsed();
 
