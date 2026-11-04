@@ -15,9 +15,9 @@ Advanced Algorithms, Assignment 2 (group of 3). Each implementation has one prim
 
 | Implementation | Method | Primary author |
 |---|---|---|
-| `src/vc_exact.cpp` | Branch-and-bound (exact) | Matt |
-| `src/vc_approx.cpp` | Maximal matching (2-approximation) | Campbell Finlay (24772473) |
-| `src/vc_greedy.cpp` | Highest-degree greedy (heuristic) | Luke |
+| `src/vc_exact.cpp` | Branch-and-bound (exact) | Matthew Barnard - 25563457 |
+| `src/vc_approx.cpp` | Maximal matching (2-approximation) | Campbell Finlay - 24772473 |
+| `src/vc_greedy.cpp` | Highest-degree greedy (heuristic) | Luke Davis - 25491907 |
 
 The benchmarking driver, graph generator and plotting program in `tools/` are shared group work. They are also C++, so the whole project needs only a C++ compiler.
 
